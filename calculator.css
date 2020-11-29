@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: url(backgr.jpg);
+    font-family: 'Lato', sans-serif;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+
+.calculator{
+    width: 370px;
+    height: 550px;
+    margin: 10px auto;
+    box-shadow: 0 20px 40px rgba(158, 6, 247, 0.699);
+}
+
+
+.header{
+    height: 100px;
+    padding-top: 37px;
+    padding-bottom: 27px;
+    padding-right: 28px;
+    padding-left: 28px;
+    background-color: rgba(0, 0, 0, 0.658);
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    text-align: right;
+    box-shadow: 0 15px 30px rgba(158, 6, 247, 0.699);
+}
+
+.ekran{
+    width: 100%;
+    border: none;
+    outline: none;
+    color: silver;
+    font-size: 20px;
+    text-align: right;
+    background: transparent;
+}
+
+.ekran::placeholder{
+    color: rgba(255, 255, 255, 0.699);
+}
+.ekran1{
+    width: 100%;
+    border: none;
+    outline: none;
+    color: silver;
+    font-size: 65px;
+    text-align: right;
+    background: transparent;
+}
+
+.ekran1::placeholder{
+    color: rgba(255, 255, 255, 0.699);
+}
+
+.main{
+    height: 500px;
+    display: table;
+}
+
+
+.btn{
+    width: 24.4%;
+    height: 75px;
+    padding: 30px;
+    margin-top: 2px;
+    margin-left: 2px;
+    border: none;
+    background-color: rgba(0, 0, 0, 0.699);
+    font-size: 22px;
+    color: white;
+    outline: none;
+    box-shadow: 0 15px 30px rgba(158, 6, 247, 0.699);
+}
+
+
+.btn:nth-child(17){
+    border-bottom-left-radius: 5px;
+}
+
+
+.btnbig{
+    position: absolute;
+    width: 182px;
+    height: 75px;
+    padding: 30px;
+    margin-top: 2px;
+    margin-left: 2px;
+    box-shadow: 0 15px 30px rgba(158, 6, 247, 0.699);
+    border: none;
+    background-color: rgba(0, 0, 0, 0.699);
+    font-size: 22px;
+    color: white;
+    outline: none;
+    border-bottom-right-radius: 5px;
+}
+
+
+.btn:hover{
+    background-color: black;
+}
+
+
+.btnbig:hover{
+    background-color: black;
+}
